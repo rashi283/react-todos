@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from 'react'
 import { v4 as uuid } from 'uuid'
 import styled from '@emotion/styled'
+import type { Todo } from './types'
 import * as localStorageServices from './services/localStorage'
 import { sortTodos } from './models/sortTodos.models'
 import { AddInput } from './components/AddInput'

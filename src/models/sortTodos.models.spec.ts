@@ -1,3 +1,4 @@
+import type { Todo } from '../types'
 import { sortTodos } from './sortTodos.models'
 
 describe('sortTodos.models', function () {

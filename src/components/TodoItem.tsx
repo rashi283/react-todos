@@ -51,8 +51,8 @@ export interface TodoItemProps {
   id: string
   label: string
   checked?: boolean
-  onChange?: ({ id, checked }: { id: string; checked: boolean }) => void
-  onRemove?: ({ id }: { id: string }) => void
+  onChange: ({ id, checked }: { id: string; checked: boolean }) => void
+  onRemove: ({ id }: { id: string }) => void
 }
 
 export const TodoItem: FC<TodoItemProps> = ({ id, label, checked = false, onChange, onRemove }) => {
