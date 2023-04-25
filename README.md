@@ -19,3 +19,13 @@ To start with, we have a styled todo list that supports adding todos. We also ha
 2. Add hidden timestamps to todos (createdAt, completedAt), these will be used for sorting
 - The active todos should be sorted by createdAt descending ✅
 - The completed todos should be sorted by completedAt ascending ✅
+
+## Other additions:
+
+1. Add Prettier ✅
+2. Unit tests for the sortTodos models function with vitest ✅
+
+## TODO
+
+1. Add https://zod.dev/ to properly parse what's coming from localStorage ⏳
+2. Update to React 18 ⏳
