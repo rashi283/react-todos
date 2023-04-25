@@ -30,5 +30,5 @@ To start with, we have a styled todo list that supports adding todos. We also ha
 
 1. Add https://zod.dev/ to properly parse what's coming from localStorage ✅
 2. Update to React 18 ✅
-3. Add a quick Github Action to run lint / tests ⏳
+3. Add a quick Github Action to run lint / tests ✅
 4. Add a nice icon for the delete button ⏳
