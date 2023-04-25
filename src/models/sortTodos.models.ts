@@ -1,6 +1,8 @@
 import type { Todo } from '../types'
 
 export function sortTodos(todos: Todo[]): Todo[] {
+  // @ts-ignore toSorted: I know it works (Node.js v20 + Chrome)
+  // See: https://caniuse.com/mdn-javascript_builtins_array_tosorted
   return todos.toSorted((a: Todo, b: Todo) => {
     if (a.checked !== b.checked) {
       return a.checked ? 1 : -1
