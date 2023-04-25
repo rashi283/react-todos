@@ -1,6 +1,6 @@
 import type { Todo } from '../types'
 
-export function sortTodos(todos: Todo[]) {
+export function sortTodos(todos: Todo[]): Todo[] {
   return todos.toSorted((a: Todo, b: Todo) => {
     if (a.checked !== b.checked) {
       return a.checked ? 1 : -1
