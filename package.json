@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "vite",
-    "test": "vitest"
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
