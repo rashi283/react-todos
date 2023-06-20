@@ -35,3 +35,7 @@ To start with, we have a styled todo list that supports adding todos. We also ha
 3. Add a quick Github Action to run lint / tests ✅
 4. Add a nice icon for the delete button (taken from https://heroicons.com/) ✅
 5. Deploy to vercel ✅
+
+## Misc
+
+Todo App Icon by Nesar Ahmad: https://dribbble.com/shots/2873686-Todo-App-Icon
